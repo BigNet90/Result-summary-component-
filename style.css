@@ -1,0 +1,218 @@
+@import url(https://fonts.google.com/specimen/Hanken+Grotesk);
+
+* {
+    box-sizing: border-box;
+    font-family: Hanken Grotesk, sans-serif;
+}
+
+p,
+img {
+    margin: 2px;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+/* CONTAINER'S RULES */
+.container {
+    display: flex;
+    gap: 20px;
+    width: 100em;
+    height: auto;
+    background: hsl(0, 0%, 100%);
+    padding: 20px;
+    box-shadow: 2px 2px 4px grey;
+    border-radius: 10px;
+}
+
+/* BOXES' RULE */
+.box1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.circle {
+    width: max-content;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 25px;
+    color: hsl(0, 0%, 100%);
+    background: radial-gradient(hsla(256, 72%, 46%, 1), #2421ca00);
+
+
+}
+
+.p {
+    width: 100%;
+    word-spacing: 40px;
+    text-align: end;
+}
+
+.box2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box3 {
+    width: fit-content;
+}
+
+/* ITEMS' RULE */
+.item-container {
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    border-radius: 10px;
+}
+
+.item1 {
+    display: flex;
+    background: grey;
+    width: max-content;
+    margin: 10px;
+    padding: 10px;
+    background: hsla(0, 100%, 67%, 0.1);
+    border: 1px solid hsla(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+
+
+}
+
+.item2 {
+    display: flex;
+    width: max-content;
+    margin: 10px;
+    padding: 10px;
+    background: hsla(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+    border: 1px solid hsla(39, 100%, 56%, 0.2);
+
+}
+
+.item3 {
+    display: flex;
+    width: max-content;
+    margin: 10px;
+    padding: 10px;
+    background: hsla(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+    border: 1px solid hsla(166, 100%, 37%, 0.1);
+}
+
+.item4 {
+    display: flex;
+    width: max-content;
+    margin: 10px;
+    padding: 10px;
+    background: hsla(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%);
+    border: 1px solid hsla(234, 85%, 45%, 0.1);
+
+}
+
+/* BUTTON RULE */
+button {
+    border-radius: 20px;
+    border-style: none;
+    padding: 5px;
+    margin: 10px;
+    background: linear-gradient(rgb(22, 19, 54), rgb(66, 47, 134));
+    color: whitesmoke;
+
+}
+
+button:active,
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width:375px) {
+
+    .container {
+        width: max-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .item-container {
+        width: 10%;
+        height: auto;
+    }
+
+    .box1 {
+        width: 100vw;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    button {
+        width: 80vw;
+        margin-left: 20px;
+        align-items: center;
+    }
+
+}
+
+/* BIG SCREENS */
+@media only screen and (min-width:1440px) and (max-width: 1990px) {
+    body {
+        width: 100vw;
+
+    }
+
+    .item-container,
+    .item1,
+    .item2,
+    .item3,
+    .item4 {
+        width: max-content;
+    }
+
+    button {
+        width: 100%;
+        height: auto;
+    }
+
+    .container {
+        margin: 20%;
+        width: max-content;
+    }
+}
