@@ -192,7 +192,7 @@ button:hover {
 }
 
 /* BIG SCREENS */
-@media only screen and (min-width:1440px) and (max-width: 1990px) {
+@media only screen and (min-width:1440px) {
     body {
         width: 100vw;
 
@@ -207,8 +207,7 @@ button:hover {
     }
 
     button {
-        width: 100%;
-        height: auto;
+        width: 80px;
     }
 
     .container {
