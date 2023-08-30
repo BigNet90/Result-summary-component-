@@ -137,6 +137,7 @@ button {
     margin: 10px;
     background: linear-gradient(rgb(22, 19, 54), rgb(66, 47, 134));
     color: whitesmoke;
+    width:100%
 
 }
 
@@ -167,7 +168,7 @@ button:hover {
     }
 
     .item-container {
-        width: 10%;
+        width: 100%;
         height: auto;
     }
 
@@ -207,7 +208,7 @@ button:hover {
     }
 
     button {
-        width: 80px;
+        width: 100px;
     }
 
     .container {
