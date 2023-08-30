@@ -212,6 +212,7 @@ button:hover {
 
     .container {
         margin: 20%;
-        width: max-content;
+        width: 100%;
+        height: auto;
     }
 }
