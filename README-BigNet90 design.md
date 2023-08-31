@@ -74,7 +74,7 @@ ABUBAKAR SADIQ UZAIFAH
 - Email - (abubakaruzaifah@gmail.com)
 - Website -(https://www.vercel.com)
 - Frontend Mentor -(https://www.frontendmentor.io/profile/BigNet90)
-- Twitter -(https://www.twitter.com/Abusadeeq90)
+- Twitter -(https://www.twitter.com/sadeeqabu90)
 - Github - (https://www.github.com/BigNet90)
 
 ## Acknowledgments
